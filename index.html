@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="popup">
+        <div class="popup-inner">
+            <h2>Вы победили!</h2>
+            <div class="end"></div>
+            <button class="play-again-button">Играть снова</button>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <h2>Вы проиграли игру. Но не переживайте, попробуйте снова!</h2>
+            <div class="end"></div>
+            <button class="close-modal">ОК</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Виселица</h1>
+        <p>Угадай слово до того, как человек будет повешен!</p>
+
+        <div class="hangman">
+            <!-- тут будет отображаться изображение виселицы и тела человека -->
+            <div class="top"></div>
+            <div class="pole"></div>
+            <div class="base"></div>
+            <div class="rope"></div>
+            <div class="head"></div>
+            <div class="torso"></div>
+            <div class="left-arm"></div>
+            <div class="left-leg"></div>
+        </div>
+
+        <div class="word">
+            <h2>Слово:</h2>
+            <p id="word"></p>
+        </div>
+
+        <div class="guesses">
+            <p id="guesses"></p>
+        </div>
+
+        <div class="keyboard">
+            <button>А</button> <button>Б</button> <button>В</button> <button>Г</button> <button>Д</button>
+            <button>Е</button> <button>Ё</button> <button>Ж</button> <button>З</button> <button>И</button>
+            <button>Й</button> <button>К</button> <button>Л</button> <button>М</button> <button>Н</button>
+            <button>О</button> <button>П</button> <button>Р</button> <button>С</button> <button>Т</button>
+            <button>У</button> <button>Ф</button> <button>Х</button> <button>Ц</button> <button>Ч</button>
+            <button>Ш</button> <button>Щ</button> <button>Ъ</button> <button>Ы</button> <button>Ь</button>
+            <button>Э</button> <button>Ю</button> <button>Я</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
